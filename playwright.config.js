@@ -14,7 +14,7 @@ module.exports = defineConfig({
   timeout: 90000,
   testDir: './tests',
   /* Run tests in files in parallel */
-  fullyParallel: true,
+  fullyParallel: false,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
@@ -43,6 +43,7 @@ module.exports = defineConfig({
       use: { ...devices['Desktop Chrome'] },
     },
 
+    
     /* Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',

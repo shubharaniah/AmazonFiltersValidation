@@ -1,17 +1,22 @@
 {
-  "name": "playjavascript",
+  "name": "amazonfiltersvalidation",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubharaniah/AmazonFiltersValidation.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubharaniah/AmazonFiltersValidation/issues"
+  },
+  "homepage": "https://github.com/shubharaniah/AmazonFiltersValidation#readme",
   "devDependencies": {
     "@playwright/test": "^1.49.1",
     "@types/node": "^22.10.5"
-  },
-  "dependencies": {
-    "playjavascript": "file:"
   }
 }
